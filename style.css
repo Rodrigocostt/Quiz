@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#quiz {
+    margin: 20px 0;
+    text-align: left; /* Alinha o conteúdo do quiz à esquerda */
+    display: inline-block; /* Centraliza o quiz no corpo */
+    width: 100%;
+    max-width: 500px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+}
